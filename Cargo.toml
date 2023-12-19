@@ -1,6 +1,6 @@
 [package]
 name = "bybit_rs"
-version = "0.1.7"
+version = "0.1.6"
 authors = [
     "Omambia Dauglous <omambiadauglous@gmail.com>",
     "NGENI Labs <https://ngeni.io>",
@@ -55,6 +55,10 @@ ring = "0.16.20"
 serde_urlencoded = "0.7.1"
 once_cell = "1.18.0"
 hmac-sha256 = "1.1.7"
+tungstenite = "0.21.0"
+chrono = "0.4.31"
+futures-util = "0.3.28"
+tokio-tungstenite = "0.21.0"
 
 
 [[bin]]
